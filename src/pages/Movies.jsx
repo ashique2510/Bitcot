@@ -1,16 +1,15 @@
-import React, { useEffect } from 'react'
-import Content from '../components/content/Content'
-import Footer from '../components/footer/Footer'
-import Header from '../components/header/Header'
-import { useStateContext } from '../contexts/ContextProvider'
+import React, { useEffect } from "react";
+import Content from "../components/content/Content";
+import Footer from "../components/footer/Footer";
+import Header from "../components/header/Header";
+import { useStateContext } from "../contexts/ContextProvider";
 
 const Movies = () => {
-  
-    const { movies , setMovies} = useStateContext()
+  const { movies, setMovies } = useStateContext();
 
-         useEffect(() => {
-            setMovies(true)
-         }, [movies])
+  useEffect(() => {
+    setMovies(true);
+  }, [movies]);
 
   return (
     <div>
@@ -18,7 +17,7 @@ const Movies = () => {
       <Content />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Movies
+export default Movies;
