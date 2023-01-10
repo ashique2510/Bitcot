@@ -1,0 +1,44 @@
+
+
+footer .container {
+    width: 100%;
+    height: 182px;
+    margin-top: 80px;
+    background-color: var(--gray-color);
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer .container nav a{
+    text-decoration: none;
+    color: rgb(184, 179, 179);
+    font-size: 15px;
+}
+footer .container .copy-right{
+    color: rgb(184, 179, 179);
+    font-size: 15px;
+}
+footer .container .content{
+    width: 85%;
+    margin-top: 30px;
+}
+
+.social-media-app img{
+    padding-right: 10px;
+    width: 27px;
+    height: 27px;
+}
+
+.media-store img{
+    width: 100px;
+    height: 60px;
+   padding-right: 10px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
